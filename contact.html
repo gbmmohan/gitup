@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READY TO FLY
+    </title>
+    <!..google font..>
+<!..css&js..>
+<script src="web.js"></script>
+<link rel="stylesheet" href="web.css">
+<!.. font awesome lib..>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!..create navbar..>
+<nav class="navbar">
+    <div>
+    <h1>READY TO FLY<i class="fa fa-plane" aria-hidden="true"></i></h1></div>
+    <div class="navbar-links">
+<p class="navbar-link"><a href="web.html">home</a></p>
+<p class="navbar-link"><a href="tourplace.html">tour plan</a></p>
+<p class="navbar-link"><a href="contact.html"></a>contact</a></p>
+    </div>
+    <div class="navbar-toggle"onclick="show()">
+        <i class="fa-solid fa-bars"></i>
+    </div></nav>
+    <!..side navbar..>
+    <div class="side-navbar">
+        <button id="btn">close<i class="fa-solid fa-xmark"></i></button>
+        <div class="side-links"></div>
+<p class="side-link"><a href="web.html">home</a></p>
+<p class="side-link"><a href="tourplace.html">tour plan</a></p>
+<p class="side-link"><a href="contact.html">contact</a></p>
+    </div></div>
+
+
+</head>
+<body>
+    <script>
+       
+        var sidebar=document.querySelector(".side-navbar")
+       
+        
+                function show(){
+sidebar.style.left="0"
+
+}
+var btn=document.getElementById("btn")
+btn.addEventListener("click",function(){
+    sidebar.style.left="-60%"
+})
+    
+
+
+
+    </script>
+    <!..header..>
+    <DIV class="header">
+<div>
+<h1>LEVEL UP YOUR DREAM</h1>
+<h2>GET READY TO FLY</h2>
+<BUTTON>BOOKNOW</BUTTON></div>
+
+<DIV>
+    <img src="https://source.unsplash.com/100x100/?airport?1">
+</DIV></div>    <hr>
+<CENTER>
+    <H2 STYLE="color:green";REGISTER NOW</H2>
+<body>
+    <FORM>
+    <TABLE style="color:black;">
+        <TR>
+            <B><TD>NAME:</TD><TD><INPUT TYPE="TEXT"placeholder="enter your name"></TD></TR>
+                <TR> <TD>AGE:</TD><TD><INPUT TYPE="number"placeholder="enter your age"></TD></TR>
+                    <TR> <TD>GENDER:</TD><TD><INPUT TYPE="RADIO"NAME=GENDER>MALE<INPUT TYPE="RADIO"NAME=GENDER>FEMALE</TD></TR>
+                        <TR><TD>EMAIL:</TD><TD><INPUT TYPE="EMAIL"placeholder="enter your EMAIL"></TD>></TR>
+                            <TR><TD>SELECT THE COUNTRY:</TD>
+                                <TD></B>
+
+                                <SELECT>
+                                    <OPTION>
+                                        india
+                                    </OPTION>
+                                    <OPTION>
+                                        england
+                                    </OPTION>
+                                    <option>
+                                        south afferica
+                                    </option>
+                                    <option>
+                                        netherland
+                                    </option>
+                                    <option>
+                                        srilanka
+                                    </option>
+                                    <option>
+                                        singapore
+                                    </option>
+                                    <option>
+                                        dubai
+                                    </option>
+                                    <option>
+                                        maldives
+                                    </option>
+                                </SELECT>
+                            </TD>
+                            </TR>
+                            <TR>
+                                <TD>UPLOAD YOUR PASSPORT:</TD><TD><input type="FILE"></TD>
+                            </TR>
+                            <TR>
+                                <TD>
+                                    <INPUT TYPE="submit"></TD>
+                                        <TD><input type="RESET"></TD>
+                            </TR>
+                            
+                        </TABLE>
+                    </FORM>
+                    <BR>
+                        <HR></CENTER>
+                            <!..footer..>
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2>     ready to book   ||    explore your dream</h2>
+            <div class="footer icon">
+                <i class="fa-brands fa-instagram"></i><p>@dream_come true|| 
+                </p>
+                <i class="fa-solid fa-phone"aria-hidden="true"></i><p>  9159715631||  </p>
+                <i class="fa fa-envelope"aria-hidden="true"></i><p> readytofly@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
